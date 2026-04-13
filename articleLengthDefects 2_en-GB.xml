@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<articleLengthDefects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="xsd/articleLengthDefects.xsd">
+
+  <!-- ReSharper disable MarkupTextTypo -->
+
+  <defects>
+
+    <defect>
+      <text>Artikellänge ungenau</text>
+      <description><![CDATA[Die Genauigkeit der Artikellänge kann von verschiedenen Faktoren abhängen: Durchmesser, Aufbau und Oberflächenbeschaffenheit des Rohmaterials, Temperatur, wie auch die Verfahrensparameter.
+- Um eine genaue Artikellänge zu erreichen, muss als erstes sichgestellt sein, dass die Längengenauigkeit eingelernt wurde.
+- Das Erhöhen der Druckkraft stellt sicher, dass beim Vorschieben kein Schlupf entsteht.
+- Durch das Reduzieren von Beschleunigung und Geschwindigkeit kann die Genauigkeit optimiert werden. Zu hohe Werte können zu Schlupf führen.
+- Falls die vorhergehenden Massnahmen nicht ausreichen, kann durch Eingabe der gemessenen Artikellänge die notwendige Korrekturlänge bei der Produktion einkalkuliert werden.]]></description>
+      <items>
+        <defectResolutionHint id="LengthAccuracyLearning">
+          <hintDescription>
+            <description><![CDATA[Im Bildschirm "Einrichten - Rohmaterial laden" immer vor dem Produzieren eines Musters die Längengenauigkeit einlernen.
+Die Ermittlung dieser Korrektur ist notwendig, damit die erforderliche Genauigkeit von Artikel-, Abisolier und Abzugslängen erreicht werden kann.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+        <feedingProcessingLink id="Feeding.Pressure" />
+        <feedingProcessingLink id="Feeding.Acceleration" />
+        <feedingProcessingLink id="Feeding.Speed" />
+        <articleCorrectionLink id="Length.CorrectedLength" />
+      </items>
+    </defect>
+
+    <defect>
+      <text>Rohmaterial nicht durchgeschnitten</text>
+      <description><![CDATA[Probleme beim Durchschneiden entstehen durch die Beschaffenheit der Messer oder die Parametrierung des Schneidvorgangs.
+- Messer überprüfen: es ist wichtig, einwandfreie Messer eines geeigneten Typs (idealerweise V-Messer) zu verwenden.
+- Geschwindigkeit und Beschleunigung anpassen, um bessere Ergebnisse zu erzielen.
+- Messer-Überlappung erhöhen, damit das Rohmaterial sicher durchgeschnitten wird.
+- Das Öffnen der Greiföffnung rechts auf die führende Position hilft, die Kraft auf die Messer zu reduzieren.]]></description>
+      <items>
+        <defectResolutionHint id="BladesCheck">
+          <hintDescription>
+            <description><![CDATA[Bitte die Messer überprüfen.
+Zum Durchschneiden ist es wichtig, einwandfreie Messer eines geeigneten Typs (idealerweise V-Messer) zu verwenden.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+        <cuttingProcessingLink id="Cutting.Speed" />
+        <cuttingProcessingLink id="Cutting.Acceleration" />
+        <cuttingProcessingLink id="Cutting.BladeOverlapPosition" />
+        <cuttingProcessingLink id="Cutting.GrippingRightGuiding" />
+        <cuttingProcessingLink id="Cutting.GrippingRightPressure" />
+      </items>
+    </defect>
+
+    <defect>
+      <text>Schnittfläche nicht plan</text>
+      <description>
+        <![CDATA[Ist die Schnittfläche nicht plan, kann das Rohmaterial in der rechten Vorschiebeinheit stärker fixiert werden, indem die Greiföffnung rechts auf erhöhte Druckkraft gesetzt werden ("Greiföffnung rechts führend" deaktivieren).]]></description>
+      <items>
+        <cuttingProcessingLink id="Cutting.GrippingRightGuiding" />
+        <cuttingProcessingLink id="Cutting.GrippingRightPressure" />
+      </items>
+    </defect>
+
+    <defect>
+      <text>Mantel verletzt</text>
+      <description>
+        <![CDATA[Verletzungen am Mantel werden in der Regel durch zu kleine Messeröffnungen oder nicht passende Führungen verursacht.]]></description>
+      <items>
+        <feedingProcessingLink id="Guiding.BladeOpening" />
+        <defectResolutionHint id="GuidesDiameterCheck">
+          <hintDescription>
+            <description><![CDATA[Um eine prozesssichere Verarbeitung des Rohmaterials sicherzustellen, müssen Führungen mit passendem Durchmesser montiert sein.
+Eine unpassende Führung kann zu Kollisionen des Rohmaterials mit Maschinenelementen und zu Stau führen.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+      </items>
+    </defect>
+
+    <defect>
+      <text>Rohmaterialstau in der Maschine</text>
+      <description><![CDATA[Staut sich das Rohmaterial in der Maschine, sind alle führenden Elemente zu prüfen.
+- Wichtig ist die Montage von passenden Führungen. Diese sollen ein genaues Führen des Rohmaterials ermöglichen, aber so gross sein, dass beim Einfahren in die Führung keine Kollision entsteht.
+- Eine zu kleine Messeröffnung kann ebenfalls zu einem Rohmaterialstau führen.]]></description>
+      <items>
+        <feedingProcessingLink id="Guiding.BladeOpening" />
+        <defectResolutionHint id="GuidesDiameterCheck">
+          <hintDescription>
+            <description><![CDATA[Um eine prozesssichere Verarbeitung des Rohmaterials sicherzustellen, müssen Führungen mit passendem Durchmesser montiert sein.
+Eine unpassende Führung kann zu Kollisionen des Rohmaterials mit Maschinenelementen und zu Stau führen.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+      </items>
+    </defect>
+
+  </defects>
+</articleLengthDefects>

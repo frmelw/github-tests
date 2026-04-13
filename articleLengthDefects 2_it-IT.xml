@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<articleLengthDefects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="xsd/articleLengthDefects.xsd">
+
+  <!-- ReSharper disable MarkupTextTypo -->
+
+  <defects>
+
+    <defect>
+      <text>Lunghezza articolo non accurata</text>
+      <description><![CDATA[L'accuratezza della lunghezza dell'articolo può dipendere da diversi fattori: diametro, struttura e finitura superficiale della materia prima, temperatura e parametri di processo.
+- Per ottenere una lunghezza esatta dell'articolo, è necessario innanzitutto verificare che la precisione della lunghezza sia stata appresa.
+- L'aumento della forza di pressione garantisce che non si verifichi alcuno slittamento durante l'avanzamento.
+- È possibile ottimizzare l'accuratezza riducendo l'accelerazione e la velocità. Valori troppo elevati possono causare slittamento.
+- Se le misure precedenti non sono sufficienti, è possibile calcolare la lunghezza di correzione necessaria durante la produzione inserendo la lunghezza misurata dell'articolo.]]></description>
+      <items>
+        <defectResolutionHint id="LengthAccuracyLearning">
+          <hintDescription>
+            <description><![CDATA[Apprendere sempre la precisione della lunghezza nella schermata "Configurazione - Caricamento materiale grezzo" prima di produrre un campione.
+La determinazione di questa correzione è necessaria per ottenere l'accuratezza richiesta delle lunghezze di articolo, spelatura e spelatura.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+        <feedingProcessingLink id="Feeding.Pressure" />
+        <feedingProcessingLink id="Feeding.Acceleration" />
+        <feedingProcessingLink id="Feeding.Speed" />
+        <articleCorrectionLink id="Length.CorrectedLength" />
+      </items>
+    </defect>
+
+    <defect>
+      <text>Materiale grezzo non tagliato</text>
+      <description><![CDATA[I problemi durante il taglio sono causati dalla natura delle lame o dalla parametrizzazione del processo di taglio.
+- Controllare le lame: è importante utilizzare lame in buone condizioni e di tipo adeguato (idealmente lame a V).
+- Regolare la velocità e l'accelerazione per ottenere risultati migliori.
+- Aumentare la sovrapposizione delle lame per tagliare il materiale grezzo in modo sicuro.
+- L'apertura dell'apertura della pinza a destra nella posizione di guida aiuta a ridurre la forza sulle lame.]]></description>
+      <items>
+        <defectResolutionHint id="BladesCheck">
+          <hintDescription>
+            <description><![CDATA[Controllare le lame.
+Per il taglio è importante utilizzare coltelli in perfette condizioni di un tipo adatto (idealmente coltelli a V).]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+        <cuttingProcessingLink id="Cutting.Speed" />
+        <cuttingProcessingLink id="Cutting.Acceleration" />
+        <cuttingProcessingLink id="Cutting.BladeOverlapPosition" />
+        <cuttingProcessingLink id="Cutting.GrippingRightGuiding" />
+        <cuttingProcessingLink id="Cutting.GrippingRightPressure" />
+      </items>
+    </defect>
+
+    <defect>
+      <text>Superficie di taglio non piana</text>
+      <description>
+        <![CDATA[Se la superficie di taglio non è piana, il materiale grezzo può essere fissato più saldamente nell'unità di avanzamento destra impostando l'apertura della pinza destra su una forza di pressione maggiore (disattivare "apertura della pinza destra guida").]]></description>
+      <items>
+        <cuttingProcessingLink id="Cutting.GrippingRightGuiding" />
+        <cuttingProcessingLink id="Cutting.GrippingRightPressure" />
+      </items>
+    </defect>
+
+    <defect>
+      <text>Mantello danneggiato</text>
+      <description>
+        <![CDATA[Le lesioni all'involucro sono solitamente causate da aperture delle lame troppo piccole o da guide non adeguate.]]></description>
+      <items>
+        <feedingProcessingLink id="Guiding.BladeOpening" />
+        <defectResolutionHint id="GuidesDiameterCheck">
+          <hintDescription>
+            <description><![CDATA[Per garantire una lavorazione sicura del materiale grezzo, devono essere montate guide con diametro adeguato.
+Una guida inadeguata può causare collisioni del materiale grezzo con gli elementi della macchina e inceppamenti.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+      </items>
+    </defect>
+
+    <defect>
+      <text>Accumulo di materiale grezzo nella macchina</text>
+      <description><![CDATA[Se il materiale grezzo si è accumulato nella macchina, controllare tutti gli elementi di guida.
+- È importante montare guide adeguate. Questi devono consentire una guida precisa del materiale grezzo, ma devono essere abbastanza grandi da non causare collisioni durante l'ingresso nella guida.
+- Anche un'apertura della lama troppo piccola può causare un inceppamento del materiale grezzo.]]></description>
+      <items>
+        <feedingProcessingLink id="Guiding.BladeOpening" />
+        <defectResolutionHint id="GuidesDiameterCheck">
+          <hintDescription>
+            <description><![CDATA[Per garantire una lavorazione sicura del materiale grezzo, devono essere montate guide con diametro adeguato.
+Una guida inadeguata può causare collisioni del materiale grezzo con gli elementi della macchina e inceppamenti.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+      </items>
+    </defect>
+
+  </defects>
+</articleLengthDefects>
