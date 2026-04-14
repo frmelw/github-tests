@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+      Microsoft ResX Schema
+
+      Version 2.0
+
+      The primary goals of this format is to allow a simple XML format
+      that is mostly human readable. The generation and parsing of the
+      various data types are done through the TypeConverter classes
+      associated with the data types.
+
+      Example:
+
+      ... ado.net/XML headers & schema ...
+      <resheader name="resmimetype">text/microsoft-resx</resheader>
+      <resheader name="version">2.0</resheader>
+      <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+      <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+      <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+      <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+      <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+          <value>[base64 mime encoded serialized .NET Framework object]</value>
+      </data>
+      <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+          <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+          <comment>This is a comment</comment>
+      </data>
+
+      There are any number of "resheader" rows that contain simple
+      name/value pairs.
+
+      Each data row contains a name, and value. The row also contains a
+      type or mimetype. Type corresponds to a .NET class that support
+      text/value conversion through the TypeConverter architecture.
+      Classes that don't support this are serialized and stored with the
+      mimetype set.
+
+      The mimetype is used for serialized objects, and tells the
+      ResXResourceReader how to depersist the object. This is currently not
+      extensible. For a given mimetype the value must be set accordingly:
+
+      Note - application/x-microsoft.net.object.binary.base64 is the format
+      that the ResXResourceWriter will generate, however the reader can
+      read any of the formats listed below.
+
+      mimetype: application/x-microsoft.net.object.binary.base64
+      value   : The object must be serialized with
+              : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+              : and then encoded with base64 encoding.
+
+      mimetype: application/x-microsoft.net.object.soap.base64
+      value   : The object must be serialized with
+              : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+              : and then encoded with base64 encoding.
+
+      mimetype: application/x-microsoft.net.object.bytearray.base64
+      value   : The object must be serialized into a byte array
+              : using a System.ComponentModel.TypeConverter
+              : and then encoded with base64 encoding.
+      -->
+  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+  </resheader>
+  <data name="EventSystem_UnknownEvent" xml:space="preserve">
+        <value>Unbekanntes Ereignis aufgetreten. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="HardwareControlInterface_ConnectionLost" xml:space="preserve">
+        <value>Verbindung zu Hardwareansteuerung wurde unerwartet geschlossen. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="HardwareControlInterface_ConnectingFailed" xml:space="preserve">
+        <value>Verbindung zu Hardwareansteuerung ist unterbrochen. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="HardwareControlInterface_InitializingFailed" xml:space="preserve">
+        <value>Maschinensteuerung: Fehler bei der maschinenspezifischen Initialisierung. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MachineControl_GeneralSoftwareError" xml:space="preserve">
+        <value>Allgemeiner Softwarefehler. Vorgang konnte nicht ausgeführt werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MachineState_InitializationFailed" xml:space="preserve">
+        <value>Fehler beim Starten der Maschineninitialisierung. ► Andere aktuelle Ereignisse beachten oder Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="UserInterface_MachineClient_Initializing" xml:space="preserve">
+        <value>Bedienoberfläche wird initialisiert...</value>
+    </data>
+  <data name="UserInterface_MachineClient_Disconnected" xml:space="preserve">
+        <value>Verbindung zwischen Maschinensteuerung und Bedienoberfläche unterbrochen. ► Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="Update_Running" xml:space="preserve">
+        <value>Update wird ausgeführt. ► Maschine nicht ausschalten!</value>
+    </data>
+  <data name="RawMaterial_ImproperRawMaterialSize" xml:space="preserve">
+        <value>Das aktuell in der Maschine geladene Rohmaterial ist ein anderes als das programmierte Rohmaterial. ► Ereignisse bestätigen, um das Rohmaterial zu lösen.</value>
+    </data>
+  <data name="Database_VerificationFailed" xml:space="preserve">
+        <value>Fehler beim Lesen der Datenbank (Daten inkonsistent). Die Datenbank wird mit der neuesten Datensicherung wiederhergestellt. Eingaben, die seit dem letzten Neustart der Maschine gemacht wurden, sind darin nicht enthalten.</value>
+    </data>
+  <data name="MdcInstance1_Interface_ConnectionLost" xml:space="preserve">
+        <value>Verbindung zur ersten MDC-Instanz wurde unerwartet geschlossen. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_Interface_ConnectionLost" xml:space="preserve">
+        <value>Verbindung zur zweiten MDC-Instanz wurde unerwartet geschlossen. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_Interface_ConnectionLost" xml:space="preserve">
+        <value>Verbindung zur dritten MDC-Instanz wurde unerwartet geschlossen. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance1_Interface_InitializingFailed" xml:space="preserve">
+        <value>Initialisierung der ersten MDC-Instanz ist fehlerhaft. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_Interface_InitializingFailed" xml:space="preserve">
+        <value>Initialisierung der zweiten MDC-Instanz ist fehlerhaft. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_Interface_InitializingFailed" xml:space="preserve">
+        <value>Initialisierung der dritten MDC-Instanz ist fehlerhaft. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance1_Interface_Disconnected" xml:space="preserve">
+        <value>Verbindung zur ersten MDC-Instanz ist unterbrochen. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_Interface_Disconnected" xml:space="preserve">
+        <value>Verbindung zur zweiten MDC-Instanz ist unterbrochen. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_Interface_Disconnected" xml:space="preserve">
+        <value>Verbindung zur dritten MDC-Instanz ist unterbrochen. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="InputAlarmConfiguration_PreFeederConfigurationFailed" xml:space="preserve">
+        <value>Zuführgerät: Benötigte Elektronik (bSMI) nicht gefunden oder fehlerhaft.</value>
+    </data>
+  <data name="HardwareControlInterface_Initializing" xml:space="preserve">
+        <value>Maschine wird initialisiert... Bedienoberfläche ist betriebsbereit.</value>
+    </data>
+  <data name="PostProcessing_WireStackerEjectReadyTimeout" xml:space="preserve">
+        <value>Der Kabelstapler gab auf das Auswurf-Signal keine Rückmeldung. ► Auswurfklappe am Kabelstapler auf Problem überprüfen.</value>
+    </data>
+  <data name="InputAlarmConfiguration_WireStackerConfigurationFailed" xml:space="preserve">
+        <value>Kabelstapler: Benötigte Elektronik (bSMI) nicht gefunden oder fehlerhaft.</value>
+    </data>
+  <data name="InputAlarmConfiguration_CableCoilerConfigurationFailed" xml:space="preserve">
+        <value>Kabelwickler: Benötigte Elektronik (bSMI) nicht gefunden oder fehlerhaft.</value>
+    </data>
+  <data name="OperatingData_VerificationFailed" xml:space="preserve">
+        <value>Fehler beim Lesen der Betriebsdaten. Daten wurden auf 0 zurückgesetzt. ► Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MachineControl_IncompatibleFile" xml:space="preserve">
+        <value>Inkompatible Daten wurden gelöscht. Inkompatibilität entstand aufgrund einer neu installierten Softwareversion. Daten wurden vor dem Löschen archiviert.</value>
+    </data>
+  <data name="PreProcessing_PreFeederPowerNotGood" xml:space="preserve">
+        <value>Zuführgerät: Benötigte Schnittstelle (bSMI) nicht gespeist. ► Sicherstellen, dass das Zuführgerät eingeschaltet ist. Verbindungskabel sowie Speisung vom Zuführgerät zum bSMI prüfen.</value>
+    </data>
+  <data name="PostProcessing_CableCoilerPowerNotGood" xml:space="preserve">
+        <value>Kabelwickler: Benötigte Schnittstelle (bSMI) nicht gespeist. ► Sicherstellen, dass der Kabelwickler eingeschaltet ist. Verbindungskabel sowie Speisung vom Kabelwickler zum bSMI prüfen.</value>
+    </data>
+  <data name="PostProcessing_WireStackerPowerNotGood" xml:space="preserve">
+        <value>Kabelstapler: Benötigte Schnittstelle (bSMI) nicht gespeist. ► Sicherstellen, dass der Kabelstapler eingeschaltet ist. Verbindungskabel sowie Speisung vom Kabelstapler zum bSMI prüfen.</value>
+    </data>
+  <data name="PieceCountData_VerificationFailed" xml:space="preserve">
+        <value>Fehler beim Lesen der Stückzählerdaten. Daten konnten nicht wiederhergestellt werden. ► Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MachineControl_InvalidDateTime" xml:space="preserve">
+        <value>Datum und Uhrzeit sind ungültig. ► Datum und Uhrzeit im Bildschirm "Grundeinstellungen ▷ Inbetriebnahme ▷ Allgemeine Konfiguration" einstellen.</value>
+    </data>
+  <data name="MdcInstance1_ErrorUnexpected" xml:space="preserve">
+        <value>Unerwarteter Fehler bei Markiergerät 1 aufgetreten. ► Zusatzinformation beachten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance1_ErrorCreatingDriver" xml:space="preserve">
+        <value>Treiber für Markiergerät 1 konnte nicht erstellt werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance1_ErrorUnknownDriver" xml:space="preserve">
+        <value>Unbekannter Treiber für Markiergerät 1 ausgewählt. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Treiber für Markiergerät 1 konnte nicht geladen werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Netzwerk-Verbindung zum Markiergerät 1 konnte nicht hergestellt werden ► Korrekte Verbindung zum Markiergerät sicherstellen und Gerät einschalten.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Netzwerk-Verbindung zum Markiergerät 1 konnte nicht hergestellt werden. ► Korrekte Verbindung zum Markiergerät sicherstellen.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Inkompatible Verbindung zu Markiergerät 1. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Fehler bei Markiergerät 1. ► Zusatzinformation beachten.</value>
+    </data>
+  <data name="MdcInstance1_WarnDeviceGeneric" xml:space="preserve">
+        <value>Warnung bei Markiergerät 1. ► Zusatzinformation beachten.</value>
+    </data>
+  <data name="MdcInstance1_InfoDeviceGeneric" xml:space="preserve">
+        <value>Information zu Markiergerät 1. ► Zusatzinformation beachten.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Geräte-Datei für Markiergerät 1 wurde nicht gefunden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_ErrorUnexpected" xml:space="preserve">
+        <value>Unerwarteter Fehler bei Markiergerät 2 aufgetreten. ► Zusatzinformation beachten. Bei wiederholtem Auftreten Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_ErrorCreatingDriver" xml:space="preserve">
+        <value>Treiber für Markiergerät 2 konnte nicht erstellt werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_ErrorUnknownDriver" xml:space="preserve">
+        <value>Unbekannter Treiber für Markiergerät 2 ausgewählt. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Treiber für Markiergerät 2 konnte nicht geladen werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Netzwerk-Verbindung zum Markiergerät 2 konnte nicht hergestellt werden ► Korrekte Verbindung zum Markiergerät sicherstellen und Gerät einschalten.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Netzwerk-Verbindung zum Markiergerät 2 konnte nicht hergestellt werden. ► Korrekte Verbindung zum Markiergerät sicherstellen.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Inkompatible Verbindung zu Markiergerät 2. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Fehler bei Markiergerät 2. ► Zusatzinformation beachten.</value>
+    </data>
+  <data name="MdcInstance2_WarnDeviceGeneric" xml:space="preserve">
+        <value>Warnung bei Markiergerät 2. ► Zusatzinformation beachten.</value>
+    </data>
+  <data name="MdcInstance2_InfoDeviceGeneric" xml:space="preserve">
+        <value>Information zu Markiergerät 2. ► Zusatzinformation beachten.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Geräte-Datei für Markiergerät 2 wurde nicht gefunden. ► Maschine neu starten. Bei wiederholtem Auftreten Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_ErrorUnexpected" xml:space="preserve">
+        <value>Unerwarteter Fehler bei Markiergerät 3 aufgetreten. ► Zusatzinformation beachten. Bei wiederholtem Auftreten Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_ErrorCreatingDriver" xml:space="preserve">
+        <value>Treiber für Markiergerät 3 konnte nicht erstellt werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_ErrorUnknownDriver" xml:space="preserve">
+        <value>Unbekannter Treiber für Markiergerät 3 ausgewählt. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Treiber für Markiergerät 3 konnte nicht geladen werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Netzwerk-Verbindung zum Markiergerät 3 konnte nicht hergestellt werden ► Korrekte Verbindung zum Markiergerät sicherstellen und Gerät einschalten.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Netzwerk-Verbindung zum Markiergerät 3 konnte nicht hergestellt werden. ► Korrekte Verbindung zum Markiergerät sicherstellen.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Inkompatible Verbindung zu Markiergerät 3. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Fehler bei Markiergerät 3. ► Zusatzinformation beachten.</value>
+    </data>
+  <data name="MdcInstance3_WarnDeviceGeneric" xml:space="preserve">
+        <value>Warnung bei Markiergerät 3.</value>
+    </data>
+  <data name="MdcInstance3_InfoDeviceGeneric" xml:space="preserve">
+        <value>Information zu Markiergerät 3. ► Zusatzinformation beachten.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Geräte-Datei für Markiergerät 3 wurde nicht gefunden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MarkingDevice1_SmiMissing" xml:space="preserve">
+        <value>Markiergerät 1: Benötigte Elektronik (bSMI) nicht gefunden oder fehlerhaft.</value>
+    </data>
+  <data name="MarkingDevice2_SmiMissing" xml:space="preserve">
+        <value>Markiergerät 2: Benötigte Elektronik (bSMI) nicht gefunden oder fehlerhaft.</value>
+    </data>
+  <data name="MarkingDevice3_SmiMissing" xml:space="preserve">
+        <value>Heissprägegerät: Benötigte Elektronik (bSMI) nicht gefunden oder fehlerhaft.</value>
+    </data>
+  <data name="MdcInstance1_Interface_Initializing" xml:space="preserve">
+        <value>Verbindung zur ersten MDC-Instanz wird initialisiert...</value>
+    </data>
+  <data name="MdcInstance2_Interface_Initializing" xml:space="preserve">
+        <value>Verbindung zur zweiten MDC-Instanz wird initialisiert...</value>
+    </data>
+  <data name="MdcInstance3_Interface_Initializing" xml:space="preserve">
+        <value>Verbindung zur dritten MDC-Instanz wird initialisiert...</value>
+    </data>
+  <data name="Marking_LimitedFeedingSpeed" xml:space="preserve">
+        <value>Reduzierte Geschwindigkeit durch das eingestellte Druckbild.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceLockUI" xml:space="preserve">
+        <value>Bedienoberfläche von Markiergerät 1 kann nicht gesperrt werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceNotReady" xml:space="preserve">
+        <value>Markiergerät 1 ist nicht bereit zur Produktion. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceLockUI" xml:space="preserve">
+        <value>Bedienoberfläche von Markiergerät 2 kann nicht gesperrt werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceLockUI" xml:space="preserve">
+        <value>Bedienoberfläche von Markiergerät 3 kann nicht gesperrt werden. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceNotReady" xml:space="preserve">
+        <value>Markiergerät 2 ist nicht bereit zur Produktion. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceNotReady" xml:space="preserve">
+        <value>Markiergerät 3 ist nicht bereit zur Produktion. ► Maschine neu starten. Tritt der Fehler wieder auf, Schleuniger-Service kontaktieren.</value>
+    </data>
+  <data name="MachineControl_FileConversionFailed" xml:space="preserve">
+        <value>Fehler beim Konvertieren der Dateien in die aktuelle Datenversion. Die betroffene(n) Dateien wurden neu initialisiert. ► Die Daten bleiben in der alten Version auf der Maschine gespeichert und können mit einer Datensicherung von der Maschine kopiert werden.</value>
+    </data>
+  <data name="MachineControl_DatabaseConversionFailed" xml:space="preserve">
+        <value>Fehler beim Konvertieren der Datenbank in die aktuelle Datenversion. Die betroffene(n) Dateien wurden neu initialisiert. ► Die Datenbank bleibt in der alten Version auf der Maschine gespeichert und kann mit einer Datensicherung von der Maschine kopiert werden.</value>
+    </data>
+  <data name="Marking_OverlappingAreas" xml:space="preserve">
+        <value>Überlappende Bedruckungen erkannt. ► Länge der Bedruckungen reduzieren, Anzahl der Bedruckungen reduzieren oder Distanz zwischen den Bedruckungen erhöhen.</value>
+    </data>
+  <data name="MdcInstance1_ErrorTooManyFormats" xml:space="preserve">
+        <value>Markiergerät 1: Artikel kann kann nicht produziert werden. Probleme mit Tintenstrahldruck. Zu viele Kombinationen zwischen Textformatierungen, Schriftgrössen und Buchstabenabstand sind auf dem Artikel ausgewählt.</value>
+    </data>
+  <data name="MdcInstance2_ErrorTooManyFormats" xml:space="preserve">
+        <value>Markiergerät 2: Artikel kann nicht produziert werden. Probleme mit Tintenstrahldruck. Zu viele Kombinationen zwischen Textformatierungen, Schriftgrössen und Buchstabenabstand sind auf dem Artikel ausgewählt.</value>
+    </data>
+  <data name="MdcInstance3_ErrorTooManyFormats" xml:space="preserve">
+        <value>Markiergerät 3: Artikel kann nicht produziert werden. Probleme mit Tintenstrahldruck. Zu viele Kombinationen zwischen Textformatierungen, Schriftgrössen und Buchstabenabstand sind auf dem Artikel ausgewählt.</value>
+    </data>
+  <data name="MdcInstance1_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Markiergerät 1: Artikel kann kann nicht produziert werden. Probleme mit Tintenstrahldruck. Der Tintenstrahldrucker unterstützt das Bedrucken von Artikeln mit Texten (einfaches Markieren). "Erweitertes Markieren" (Logos, Barcodes, Spacer und ähnliche Elemente) wird vom Tintenstrahldrucker aktuell nicht unterstützt.</value>
+    </data>
+  <data name="MdcInstance2_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Markiergerät 2: Artikel kann kann nicht produziert werden. Probleme mit Tintenstrahldruck. Der Tintenstrahldrucker unterstützt das Bedrucken von Artikeln mit Texten (einfaches Markieren). "Erweitertes Markieren" (Logos, Barcodes, Spacer und ähnliche Elemente) wird vom Tintenstrahldrucker aktuell nicht unterstützt.</value>
+    </data>
+  <data name="MdcInstance3_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Markiergerät 3: Artikel kann kann nicht produziert werden. Probleme mit Tintenstrahldruck. Der Tintenstrahldrucker unterstützt das Bedrucken von Artikeln mit Texten (einfaches Markieren). "Erweitertes Markieren" (Logos, Barcodes, Spacer und ähnliche Elemente) wird vom Tintenstrahldrucker aktuell nicht unterstützt.</value>
+    </data>
+  <data name="Marking_TooManyAreaElements" xml:space="preserve">
+        <value>Artikel kann nicht produziert werden. Artikel enthält mehr als 100.000 Markierungen. ► Anzahl Markierungen auf unter 100.000 reduzieren.</value>
+    </data>
+  <data name="MdcInstance1_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Markiergerät 1 nicht erkannt. ► Verbindung zum Markiergerät prüfen oder Markiergerät deaktivieren.</value>
+    </data>
+  <data name="MdcInstance2_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Markiergerät 2 nicht erkannt. ► Verbindung zum Markiergerät prüfen oder Markiergerät deaktivieren.</value>
+    </data>
+  <data name="MdcInstance3_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Markiergerät 3 nicht erkannt. ► Verbindung zum Markiergerät prüfen oder Markiergerät deaktivieren.</value>
+    </data>
+  <data name="HotStamp1_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Heissprägegerät 1 nicht erkannt. ► Verbindung zum Heissprägegerät prüfen oder Heissprägegerät deaktivieren.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNotReady" xml:space="preserve">
+        <value>Markiergerät 1 ist nicht betriebsbereit. ► Andere aktuelle Ereignisse beachten oder Markiergerät 1 prüfen.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNotReady" xml:space="preserve">
+        <value>Markiergerät 2 ist nicht betriebsbereit. ► Andere aktuelle Ereignisse beachten oder Markiergerät 2 prüfen.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNotReady" xml:space="preserve">
+        <value>Markiergerät 3 ist nicht betriebsbereit. ► Andere aktuelle Ereignisse beachten oder Markiergerät 3 prüfen.</value>
+    </data>
+  <data name="MachineUpdater_Active" xml:space="preserve">
+        <value>S.Drive wird aktualisiert. Die Meldung bestätigen, um die Cut&amp;Strip-Maschine zu initialisieren. Die Initialisierung kann zu einer fehlerhaften Verbindung zur Hardwaresteuerung führen.</value>
+    </data>
+  <data name="CableCoiler_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Kabelwickler: Benötigte Schnittstelle (bSMI) nicht gespeist. ► Sicherstellen, dass der Kabelwickler eingeschaltet ist. Verbindungskabel sowie Speisung vom Kabelwickler zum SMI1-B prüfen.</value>
+  </data>
+  <data name="HotStamp1_AcknowledgeError" xml:space="preserve">
+      <value>Heissprägegerät 1: Antwortsignal ist vor dem Prägevorgang gesetzt. ► Antwortsignals des Heissprägegeräts prüfen.</value>
+  </data>
+  <data name="HotStamp1_TimeoutError" xml:space="preserve">
+      <value>Heissprägegerät 1: Zeitüberschreitung beim Prägen. ► Konfigurationswerte für Timeout im Bildschirm "Grundeinstellungen ▷ Inbetriebnahme ▷ Markiergeräte" prüfen. ► Antwortsignal des Heissprägegeräts prüfen.</value>
+  </data>
+  <data name="HotStamp1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Heissprägegerät 1: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass Heissprägegerät 1 eingeschaltet ist. Verbindungskabel sowie Speisung vom Heissprägegerät 1 zum SMI1-A prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Markiergerät 1: Fehler aufgetreten. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorInterruptFailed" xml:space="preserve">
+    <value>Markiergerät 1: Modus "Pause" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Markiergerät 1: Druck-Befehl wurde vom Gerät nicht innerhalb der notwendigen Zeit bestätigt. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorProductionState" xml:space="preserve">
+      <value>Markiergerät 1: Fehler aufgetreten. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorRunFailed" xml:space="preserve">
+    <value>Markiergerät 1: Modus "Betrieb" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStillPrinting" xml:space="preserve">
+    <value>Markiergerät 1: Vorhergehender Druck war beim Auslösen des neuen Drucks noch in Arbeit.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStillReloading" xml:space="preserve">
+    <value>Markiergerät 1: Druck-Befehl erfolgte während dem Nachladen von Bedruckungen. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStreamClosed" xml:space="preserve">
+      <value>Markiergerät 1: Verbindung zwischen Markiergerät und Hardwareansteuerung verloren. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorTerminateFailed" xml:space="preserve">
+    <value>Markiergerät 1: Modus "ausser Betrieb" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_ErrorUnableToReload" xml:space="preserve">
+    <value>Markiergerät 1: Nachladen von Bedruckungen scheiterte. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Markiergerät 1: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass Markiergerät 1 eingeschaltet ist. Verbindungskabel sowie Speisung vom Markiergerät 1 zum SMI1-A prüfen.</value>
+  </data>
+  <data name="MdcInstance1_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Markiergerät 1: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass Markiergerät 1 eingeschaltet ist. Verbindungskabel sowie Speisung vom Markiergerät 1 zum SMI1-B prüfen.</value>
+  </data>
+  <data name="MdcInstance1_SMI2_A_PowerGoodError" xml:space="preserve">
+      <value>Markiergerät 1: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass Markiergerät 1 eingeschaltet ist. Verbindungskabel sowie Speisung vom Markiergerät 1 zum SMI2-A prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Markiergerät 2: Fehler aufgetreten. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorInterruptFailed" xml:space="preserve">
+    <value>Markiergerät 2: Modus "Pause" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Markiergerät 2: Druck-Befehl wurde vom Gerät nicht innerhalb der notwendigen Zeit bestätigt. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorProductionState" xml:space="preserve">
+      <value>Markiergerät 2: Fehler aufgetreten. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorRunFailed" xml:space="preserve">
+    <value>Markiergerät 2: Modus "Betrieb" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStillPrinting" xml:space="preserve">
+    <value>Markiergerät 2: Vorhergehender Druck war beim Auslösen des neuen Drucks noch in Arbeit.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStillReloading" xml:space="preserve">
+    <value>Markiergerät 2: Druck-Befehl erfolgte während dem Nachladen von Bedruckungen. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStreamClosed" xml:space="preserve">
+      <value>Markiergerät 2: Verbindung zwischen Markiergerät und Hardwareansteuerung verloren. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorTerminateFailed" xml:space="preserve">
+    <value>Markiergerät 2: Modus "ausser Betrieb" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_ErrorUnableToReload" xml:space="preserve">
+    <value>Markiergerät 2: Nachladen von Bedruckungen scheiterte. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance2_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Markiergerät 2: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass Markiergerät 2 eingeschaltet ist. Verbindungskabel sowie Speisung vom Markiergerät 2 zum SMI1-A prüfen.</value>
+  </data>
+  <data name="MdcInstance2_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Markiergerät 2: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass Markiergerät 2 eingeschaltet ist. Verbindungskabel sowie Speisung vom Markiergerät 2 zum SMI1-B prüfen.</value>
+  </data>
+  <data name="MdcInstance2_SMI2_A_PowerGoodError" xml:space="preserve">
+      <value>Markiergerät 2: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass Markiergerät 2 eingeschaltet ist. Verbindungskabel sowie Speisung vom Markiergerät 2 zum SMI2-A prüfen.</value>
+  </data>
+  <data name="MdcInstance2_SMI2_B_PowerGoodError" xml:space="preserve">
+      <value>Markiergerät 2: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass Markiergerät 2 eingeschaltet ist. Verbindungskabel sowie Speisung vom Markiergerät 2 zum SMI2-B prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Markiergerät 3: Fehler aufgetreten. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorInterruptFailed" xml:space="preserve">
+    <value>Markiergerät 3: Modus "Pause" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Markiergerät 3: Druck-Befehl wurde vom Gerät nicht innerhalb der notwendigen Zeit bestätigt. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorProductionState" xml:space="preserve">
+      <value>Markiergerät 3: Fehler aufgetreten. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorRunFailed" xml:space="preserve">
+    <value>Markiergerät 3: Modus "Betrieb" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStillPrinting" xml:space="preserve">
+    <value>Markiergerät 3: Vorhergehender Druck war beim Auslösen des neuen Drucks noch in Arbeit.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStillReloading" xml:space="preserve">
+    <value>Markiergerät 3: Druck-Befehl erfolgte während dem Nachladen von Bedruckungen. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStreamClosed" xml:space="preserve">
+      <value>Markiergerät 3: Verbindung zwischen Markiergerät und Hardwareansteuerung verloren. ► Andere aktuelle Ereignisse beachten oder Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorTerminateFailed" xml:space="preserve">
+    <value>Markiergerät 3: Modus "ausser Betrieb" konnte nicht aktiviert werden. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="MdcInstance3_ErrorUnableToReload" xml:space="preserve">
+    <value>Markiergerät 3: Nachladen von Bedruckungen gescheitert. ► Markiergerät prüfen.</value>
+  </data>
+  <data name="PostProcessing_CableCoilerNotReady" xml:space="preserve">
+    <value>Kabelwickler: Kabelwickler meldet einen Fehler. ► Anschlusskabel prüfen oder Fehler am Kabelwickler beheben.</value>
+  </data>
+  <data name="PostProcessing_WireStackerNotPresent" xml:space="preserve">
+    <value>Kein Kabelstapler erkannt. ► Verbindung zum Kabelstapler prüfen.</value>
+  </data>
+  <data name="PreFeederAndHotStamp1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Zuführgerät und Heissprägegerät 1: Benötigte Elektronik (bSMI) nicht gespiesen. ► Sicherstellen, dass das Zuführgerät und Heissprägegerät 1 eingeschaltet sind. Verbindungskabel sowie Speisungen vom Zuführgerät und Heissprägegerät 1 zum SMI1-A prüfen.</value>
+  </data>
+  <data name="PreFeeder_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Zuführgerät: Benötigte Elektronik (bSMI) nicht gespeist. ► Sicherstellen, dass das Zuführgerät eingeschaltet ist. Verbindungskabel sowie Speisung vom Zuführgerät zum SMI1-A prüfen.</value>
+  </data>
+  <data name="PreProcessing_PreFeederNotPresent" xml:space="preserve">
+    <value>Kein Zuführgerät erkannt. ► Verbindung zum Zuführgerät prüfen oder Zuführgerät deaktivieren.</value>
+  </data>
+  <data name="PreProcessing_PreFeederNotReady" xml:space="preserve">
+    <value>Zuführgerät meldet Fehler. ► Zuführgerät prüfen.</value>
+  </data>
+  <data name="PreProcessing_PreFeederPresentNotActivated" xml:space="preserve">
+    <value>Zuführgerät erkannt, obwohl es im Bildschirm "Einrichten - Maschine &amp; Linie" deaktiviert ist.</value>
+  </data>
+  <data name="WireEndMonitoring_NoWireDetected" xml:space="preserve">
+    <value>Kabelendüberwachung erkennt kein Rohmaterial.</value>
+  </data>
+  <data name="WireStacker_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Kabelstapler: Benötigte Schnittstelle (bSMI) nicht gespeist. ► Sicherstellen, dass der Kabelstapler eingeschaltet ist. Verbindungskabel sowie Speisung vom Kabelstapler zum SMI1-B prüfen.</value>
+  </data>
+</root>
