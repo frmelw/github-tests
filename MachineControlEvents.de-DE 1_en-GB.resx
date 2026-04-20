@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+      Microsoft ResX Schema
+
+      Version 2.0
+
+      The primary goals of this format is to allow a simple XML format
+      that is mostly human readable. The generation and parsing of the
+      various data types are done through the TypeConverter classes
+      associated with the data types.
+
+      Example:
+
+      ... ado.net/XML headers & schema ...
+      <resheader name="resmimetype">text/microsoft-resx</resheader>
+      <resheader name="version">2.0</resheader>
+      <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+      <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+      <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+      <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+      <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+          <value>[base64 mime encoded serialized .NET Framework object]</value>
+      </data>
+      <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+          <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+          <comment>This is a comment</comment>
+      </data>
+
+      There are any number of "resheader" rows that contain simple
+      name/value pairs.
+
+      Each data row contains a name, and value. The row also contains a
+      type or mimetype. Type corresponds to a .NET class that support
+      text/value conversion through the TypeConverter architecture.
+      Classes that don't support this are serialized and stored with the
+      mimetype set.
+
+      The mimetype is used for serialized objects, and tells the
+      ResXResourceReader how to depersist the object. This is currently not
+      extensible. For a given mimetype the value must be set accordingly:
+
+      Note - application/x-microsoft.net.object.binary.base64 is the format
+      that the ResXResourceWriter will generate, however the reader can
+      read any of the formats listed below.
+
+      mimetype: application/x-microsoft.net.object.binary.base64
+      value   : The object must be serialized with
+              : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+              : and then encoded with base64 encoding.
+
+      mimetype: application/x-microsoft.net.object.soap.base64
+      value   : The object must be serialized with
+              : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+              : and then encoded with base64 encoding.
+
+      mimetype: application/x-microsoft.net.object.bytearray.base64
+      value   : The object must be serialized into a byte array
+              : using a System.ComponentModel.TypeConverter
+              : and then encoded with base64 encoding.
+      -->
+  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+  </resheader>
+  <data name="EventSystem_UnknownEvent" xml:space="preserve">
+        <value>An unknown event has occurred. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="HardwareControlInterface_ConnectionLost" xml:space="preserve">
+        <value>Connection to hardware control was unexpectedly closed. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="HardwareControlInterface_ConnectingFailed" xml:space="preserve">
+        <value>Connection to hardware control is interrupted. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="HardwareControlInterface_InitializingFailed" xml:space="preserve">
+        <value>Machine control: Error during machine-specific initialization. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MachineControl_GeneralSoftwareError" xml:space="preserve">
+        <value>General software error. The operation could not be executed. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MachineState_InitializationFailed" xml:space="preserve">
+        <value>Error starting machine initialization. ► Observe other current events or restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="UserInterface_MachineClient_Initializing" xml:space="preserve">
+        <value>Initialising user interface...</value>
+    </data>
+  <data name="UserInterface_MachineClient_Disconnected" xml:space="preserve">
+        <value>Connection between machine control and user interface interrupted. ► If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="Update_Running" xml:space="preserve">
+        <value>Update in progress. ► Do not switch off the machine!</value>
+    </data>
+  <data name="RawMaterial_ImproperRawMaterialSize" xml:space="preserve">
+        <value>The raw material currently loaded in the machine is different from the programmed raw material. ► Acknowledge events to release the raw material.</value>
+    </data>
+  <data name="Database_VerificationFailed" xml:space="preserve">
+        <value>Error reading database (data inconsistent). The database will be restored with the latest backup. Entries made since the last restart of the machine are not included.</value>
+    </data>
+  <data name="MdcInstance1_Interface_ConnectionLost" xml:space="preserve">
+        <value>Connection to first MDC instance closed unexpectedly. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_Interface_ConnectionLost" xml:space="preserve">
+        <value>Connection to second MDC instance closed unexpectedly. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_Interface_ConnectionLost" xml:space="preserve">
+        <value>Connection to third MDC instance closed unexpectedly. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance1_Interface_InitializingFailed" xml:space="preserve">
+        <value>Initialization of the first MDC instance is faulty. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_Interface_InitializingFailed" xml:space="preserve">
+        <value>Initialization of the second MDC instance is faulty. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_Interface_InitializingFailed" xml:space="preserve">
+        <value>Initialization of the third MDC instance is faulty. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance1_Interface_Disconnected" xml:space="preserve">
+        <value>Connection to the first MDC instance is lost. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_Interface_Disconnected" xml:space="preserve">
+        <value>Connection to the second MDC instance is lost. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_Interface_Disconnected" xml:space="preserve">
+        <value>Connection to the third MDC instance is lost. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="InputAlarmConfiguration_PreFeederConfigurationFailed" xml:space="preserve">
+        <value>Power supply unit: Required electronics (bSMI) not found or faulty.</value>
+    </data>
+  <data name="HardwareControlInterface_Initializing" xml:space="preserve">
+        <value>Initialising machine... The user interface is ready for operation.</value>
+    </data>
+  <data name="PostProcessing_WireStackerEjectReadyTimeout" xml:space="preserve">
+        <value>The wire stacker did not give feedback on the ejection signal. ► Check ejection flap on wire stacker for problem.</value>
+    </data>
+  <data name="InputAlarmConfiguration_WireStackerConfigurationFailed" xml:space="preserve">
+        <value>Cable stacker: Required electronics (bSMI) not found or faulty.</value>
+    </data>
+  <data name="InputAlarmConfiguration_CableCoilerConfigurationFailed" xml:space="preserve">
+        <value>Cable winder: Required electronics (bSMI) not found or faulty.</value>
+    </data>
+  <data name="OperatingData_VerificationFailed" xml:space="preserve">
+        <value>Error reading operating data. Data has been reset to 0. ► If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MachineControl_IncompatibleFile" xml:space="preserve">
+        <value>Incompatible data has been deleted. Incompatibility occurred due to a newly installed software version. Data was archived before deletion.</value>
+    </data>
+  <data name="PreProcessing_PreFeederPowerNotGood" xml:space="preserve">
+        <value>Power supply unit: Required interface (bSMI) not fed. ► Make sure that the feeder is switched on. Check the connection cable and power supply from the feeder to the bSMI.</value>
+    </data>
+  <data name="PostProcessing_CableCoilerPowerNotGood" xml:space="preserve">
+        <value>Cable winder: Required interface (bSMI) not fed. ► Make sure that the cable reel is switched on. Check the connection cable and the power supply from the cable winder to the bSMI.</value>
+    </data>
+  <data name="PostProcessing_WireStackerPowerNotGood" xml:space="preserve">
+        <value>Cable stacker: Required interface (bSMI) not fed. ► Make sure that the wire stacker is switched on. Check connecting cable and power supply from wire stacker to bSMI.</value>
+    </data>
+  <data name="PieceCountData_VerificationFailed" xml:space="preserve">
+        <value>Error reading piece counter data. Could not restore data. ► If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MachineControl_InvalidDateTime" xml:space="preserve">
+        <value>The date and time are invalid. ► Set the date and time in the “Basic Settings - Startup - General Configuration” screen.</value>
+    </data>
+  <data name="MdcInstance1_ErrorUnexpected" xml:space="preserve">
+        <value>Unexpected error occurred on 1 Marker. ► Observe additional information. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance1_ErrorCreatingDriver" xml:space="preserve">
+        <value>Could not create driver for marker 1. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance1_ErrorUnknownDriver" xml:space="preserve">
+        <value>Unknown driver selected for striper 1. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Could not load driver for marker 1. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Network connection to striper 1 could not be established ► Ensure correct connection to striper and switch on device.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Could not establish network connection to marker 1. ► Ensure correct connection to striper.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Incompatible connection to striper 1. ► Restart machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Error with marking device 1. ► Observe additional information.</value>
+    </data>
+  <data name="MdcInstance1_WarnDeviceGeneric" xml:space="preserve">
+        <value>Warning for marking device 1. ► Observe additional information.</value>
+    </data>
+  <data name="MdcInstance1_InfoDeviceGeneric" xml:space="preserve">
+        <value>Information on marking device 1. ► Observe additional information.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Device file for Striper 1 not found. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_ErrorUnexpected" xml:space="preserve">
+        <value>Unexpected error occurred on 2 Marker. ► Observe additional information. If this occurs repeatedly, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_ErrorCreatingDriver" xml:space="preserve">
+        <value>Could not create driver for marker 2. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_ErrorUnknownDriver" xml:space="preserve">
+        <value>Unknown driver selected for striper 2. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Could not load driver for marker 2. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Network connection to striper 2 could not be established ► Ensure correct connection to striper and switch on device.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Could not establish network connection to 2 Marker. ► Ensure correct connection to striper.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Incompatible connection to striper 2. ► Restart machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Error with marking device 2. ► Observe additional information.</value>
+    </data>
+  <data name="MdcInstance2_WarnDeviceGeneric" xml:space="preserve">
+        <value>Warning for marking device 2. ► Observe additional information.</value>
+    </data>
+  <data name="MdcInstance2_InfoDeviceGeneric" xml:space="preserve">
+        <value>Information on marking device 2. ► Observe additional information.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Device file for Striper 2 not found. ► Restart the machine. If this occurs repeatedly, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_ErrorUnexpected" xml:space="preserve">
+        <value>Unexpected error occurred on 3 Marker. ► Observe additional information. If this occurs repeatedly, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_ErrorCreatingDriver" xml:space="preserve">
+        <value>Could not create driver for marker 3. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_ErrorUnknownDriver" xml:space="preserve">
+        <value>Unknown driver selected for striper 3. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Could not load driver for marker 3. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Network connection to striper 3 could not be established ► Ensure correct connection to striper and switch on device.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Network connection to marker 3 could not be established. ► Ensure correct connection to striper.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Incompatible connection to striper 3. ► Restart machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Error with marking device 3. ► Observe additional information.</value>
+    </data>
+  <data name="MdcInstance3_WarnDeviceGeneric" xml:space="preserve">
+        <value>Warning at striper 3.</value>
+    </data>
+  <data name="MdcInstance3_InfoDeviceGeneric" xml:space="preserve">
+        <value>Information on marking device 3. ► Observe additional information.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Device file for striper 3 not found. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MarkingDevice1_SmiMissing" xml:space="preserve">
+        <value>Striper 1: Required electronics (bSMI) not found or faulty.</value>
+    </data>
+  <data name="MarkingDevice2_SmiMissing" xml:space="preserve">
+        <value>Striper 2: Required electronics (bSMI) not found or faulty.</value>
+    </data>
+  <data name="MarkingDevice3_SmiMissing" xml:space="preserve">
+        <value>Hot stamping device: Required electronics (bSMI) not found or faulty.</value>
+    </data>
+  <data name="MdcInstance1_Interface_Initializing" xml:space="preserve">
+        <value>Initialising connection to first MDC instance...</value>
+    </data>
+  <data name="MdcInstance2_Interface_Initializing" xml:space="preserve">
+        <value>Initialising connection to second MDC instance...</value>
+    </data>
+  <data name="MdcInstance3_Interface_Initializing" xml:space="preserve">
+        <value>Initialising connection to third MDC instance...</value>
+    </data>
+  <data name="Marking_LimitedFeedingSpeed" xml:space="preserve">
+        <value>Reduced speed due to the set print image.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceLockUI" xml:space="preserve">
+        <value>1 Marker user interface cannot be locked. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceNotReady" xml:space="preserve">
+        <value>1 Marker is not ready for production. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceLockUI" xml:space="preserve">
+        <value>Striper 2 user interface cannot be locked. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceLockUI" xml:space="preserve">
+        <value>3 Marker user interface cannot be locked. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceNotReady" xml:space="preserve">
+        <value>2 Marker is not ready for production. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceNotReady" xml:space="preserve">
+        <value>3 Marker is not ready for production. ► Restart the machine. If the error occurs again, contact Schleuniger Service.</value>
+    </data>
+  <data name="MachineControl_FileConversionFailed" xml:space="preserve">
+        <value>Error converting files to current data version. The affected file(s) have been reinitialized. ► The data remains stored in the old version on the machine and can be copied from the machine with a data backup.</value>
+    </data>
+  <data name="MachineControl_DatabaseConversionFailed" xml:space="preserve">
+        <value>Error converting database to current data version. The affected file(s) have been reinitialized. ► The database remains in the old version on the machine and can be copied from the machine with a data backup.</value>
+    </data>
+  <data name="Marking_OverlappingAreas" xml:space="preserve">
+        <value>Overlapping printing detected. ► Reduce the length of the printings, reduce the number of printings or increase the distance between the printings.</value>
+    </data>
+  <data name="MdcInstance1_ErrorTooManyFormats" xml:space="preserve">
+        <value>Striper 1: Article cannot be produced. Ink jet printing problems. Too many combinations between text formatting, font sizes and letter spacing are selected on the article.</value>
+    </data>
+  <data name="MdcInstance2_ErrorTooManyFormats" xml:space="preserve">
+        <value>Striper 2: Article cannot be produced. Ink jet printing problems. Too many combinations between text formatting, font sizes and letter spacing are selected on the article.</value>
+    </data>
+  <data name="MdcInstance3_ErrorTooManyFormats" xml:space="preserve">
+        <value>Striper 3: Article cannot be produced. Ink jet printing problems. Too many combinations between text formatting, font sizes and letter spacing are selected on the article.</value>
+    </data>
+  <data name="MdcInstance1_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Striper 1: Article cannot be produced. Ink jet printing problems. The inkjet printer supports the printing of articles with text (simple marking). “Advanced marking” (logos, barcodes, spacers and similar elements) is not currently supported by the inkjet printer.</value>
+    </data>
+  <data name="MdcInstance2_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Striper 2: Article cannot be produced. Ink jet printing problems. The inkjet printer supports the printing of articles with text (simple marking). “Advanced marking” (logos, barcodes, spacers and similar elements) is not currently supported by the inkjet printer.</value>
+    </data>
+  <data name="MdcInstance3_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Striper 3: Article cannot be produced. Ink jet printing problems. The inkjet printer supports the printing of articles with text (simple marking). “Advanced marking” (logos, barcodes, spacers and similar elements) is not currently supported by the inkjet printer.</value>
+    </data>
+  <data name="Marking_TooManyAreaElements" xml:space="preserve">
+        <value>Article cannot be produced. Article contains more than 100,000 marks. ► Reduce the number of marks to less than 100,000.</value>
+    </data>
+  <data name="MdcInstance1_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Striper 1 not detected. ► Check connection to striper or disable striper.</value>
+    </data>
+  <data name="MdcInstance2_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Striper 2 not detected. ► Check connection to striper or disable striper.</value>
+    </data>
+  <data name="MdcInstance3_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>3 Marker not detected. ► Check connection to striper or disable striper.</value>
+    </data>
+  <data name="HotStamp1_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Hot stamping device 1 not detected. ► Check connection to hot stamping device or deactivate hot stamping device.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNotReady" xml:space="preserve">
+        <value>1 Marker is not ready for operation. ► Observe other current events or check striper 1.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNotReady" xml:space="preserve">
+        <value>Striper 2 is not ready for operation. ► Observe other current events or check striper 2.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNotReady" xml:space="preserve">
+        <value>3 Marker is not ready for operation. ► Observe other current events or check striper 3.</value>
+    </data>
+  <data name="MachineUpdater_Active" xml:space="preserve">
+        <value>Updating S.Drive. Acknowledge the message to initialise the Cut&amp;Strip machine. Initialization can lead to a faulty connection to the hardware control.</value>
+    </data>
+  <data name="CableCoiler_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Cable winder: Required interface (bSMI) not fed. ► Make sure that the cable reel is switched on. Check connection cable and power supply from cable winder to SMI1-B.</value>
+  </data>
+  <data name="HotStamp1_AcknowledgeError" xml:space="preserve">
+      <value>Hot stamping device 1: Response signal is set before the embossing process. ► Check the response signal of the hot stamping device.</value>
+  </data>
+  <data name="HotStamp1_TimeoutError" xml:space="preserve">
+      <value>Hot stamping device 1: Embossing timeout. ► Check the configuration values for timeout on the “Basic Settings - Startup - Markers” screen. ► Check the response signal of the hot stamping device.</value>
+  </data>
+  <data name="HotStamp1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Hot stamping device 1: Required electronics (bSMI) not powered. ► Ensure that hot stamping device 1 is switched on. Check connection cable and power supply from hot stamping unit 1 to SMI1-A.</value>
+  </data>
+  <data name="MdcInstance1_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Striper 1: Something went wrong! ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance1_ErrorInterruptFailed" xml:space="preserve">
+    <value>Striper 1: Pause mode could not be activated. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance1_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Striper 1: Print command was not confirmed by the device within the required time. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance1_ErrorProductionState" xml:space="preserve">
+      <value>Striper 1: Something went wrong! ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance1_ErrorRunFailed" xml:space="preserve">
+    <value>Striper 1: Could not activate “Operation” mode. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStillPrinting" xml:space="preserve">
+    <value>Striper 1: Previous print was still in progress when the new print was triggered.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStillReloading" xml:space="preserve">
+    <value>Striper 1: Print command occurred during reloading of printings. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStreamClosed" xml:space="preserve">
+      <value>Striper 1: Connection between striper and hardware controller lost. ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance1_ErrorTerminateFailed" xml:space="preserve">
+    <value>Striper 1: Could not activate out of service mode. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance1_ErrorUnableToReload" xml:space="preserve">
+    <value>Striper 1: Failed to reload printings. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Striper 1: Required electronics (bSMI) not powered. ► Make sure striper 1 is turned on. Check connection cable and power supply from striper 1 to SMI1-A.</value>
+  </data>
+  <data name="MdcInstance1_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Striper 1: Required electronics (bSMI) not powered. ► Make sure striper 1 is turned on. Check connection cable and power supply from striper 1 to SMI1-B.</value>
+  </data>
+  <data name="MdcInstance1_SMI2_A_PowerGoodError" xml:space="preserve">
+      <value>Striper 1: Required electronics (bSMI) not powered. ► Make sure striper 1 is turned on. Check connection cable and power supply from striper 1 to SMI2-A.</value>
+  </data>
+  <data name="MdcInstance2_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Striper 2: Something went wrong! ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance2_ErrorInterruptFailed" xml:space="preserve">
+    <value>Striper 2: Pause mode could not be activated. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance2_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Striper 2: Print command was not confirmed by the device within the required time. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance2_ErrorProductionState" xml:space="preserve">
+      <value>Striper 2: Something went wrong! ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance2_ErrorRunFailed" xml:space="preserve">
+    <value>Striper 2: Could not activate “Operation” mode. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStillPrinting" xml:space="preserve">
+    <value>Striper 2: Previous print was still in progress when the new print was triggered.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStillReloading" xml:space="preserve">
+    <value>Striper 2: Print command occurred during reloading of printings. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStreamClosed" xml:space="preserve">
+      <value>Striper 2: Connection between striper and hardware controller lost. ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance2_ErrorTerminateFailed" xml:space="preserve">
+    <value>Striper 2: Could not activate out of service mode. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance2_ErrorUnableToReload" xml:space="preserve">
+    <value>Striper 2: Failed to reload printings. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance2_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Striper 2: Required electronics (bSMI) not powered. ► Make sure striper 2 is turned on. Check connection cable and power supply from striper 2 to SMI1-A.</value>
+  </data>
+  <data name="MdcInstance2_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Striper 2: Required electronics (bSMI) not powered. ► Make sure striper 2 is turned on. Check connection cable and power supply from striper 2 to SMI1-B.</value>
+  </data>
+  <data name="MdcInstance2_SMI2_A_PowerGoodError" xml:space="preserve">
+      <value>Striper 2: Required electronics (bSMI) not powered. ► Make sure striper 2 is turned on. Check connection cable and power supply from striper 2 to SMI2-A.</value>
+  </data>
+  <data name="MdcInstance2_SMI2_B_PowerGoodError" xml:space="preserve">
+      <value>Striper 2: Required electronics (bSMI) not powered. ► Make sure striper 2 is turned on. Check connection cable and power supply from striper 2 to SMI2-B.</value>
+  </data>
+  <data name="MdcInstance3_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Striper 3: Something went wrong! ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance3_ErrorInterruptFailed" xml:space="preserve">
+    <value>Striper 3: Pause mode could not be activated. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance3_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Striper 3: Print command was not confirmed by the device within the required time. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance3_ErrorProductionState" xml:space="preserve">
+      <value>Striper 3: Something went wrong! ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance3_ErrorRunFailed" xml:space="preserve">
+    <value>Striper 3: Could not activate “Operation” mode. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStillPrinting" xml:space="preserve">
+    <value>Striper 3: Previous print was still in progress when the new print was triggered.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStillReloading" xml:space="preserve">
+    <value>Striper 3: Print command occurred during reloading of printings. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStreamClosed" xml:space="preserve">
+      <value>Striper 3: Connection between striper and hardware controller lost. ► Observe other current events or check striper.</value>
+  </data>
+  <data name="MdcInstance3_ErrorTerminateFailed" xml:space="preserve">
+    <value>Striper 3: Could not activate out of service mode. ► Check striper.</value>
+  </data>
+  <data name="MdcInstance3_ErrorUnableToReload" xml:space="preserve">
+    <value>Striper 3: Failed to reload printings. ► Check striper.</value>
+  </data>
+  <data name="PostProcessing_CableCoilerNotReady" xml:space="preserve">
+    <value>Cable winder: Cable winder reports an error. ► Check the connection cable or correct the fault on the cable winder.</value>
+  </data>
+  <data name="PostProcessing_WireStackerNotPresent" xml:space="preserve">
+    <value>No wire stacker detected. ► Check the connection to the wire stacker.</value>
+  </data>
+  <data name="PreFeederAndHotStamp1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Feeding device and hot stamping device 1: Required electronics (bSMI) not fed. ► Make sure that the feeder and hot stamping device 1 are switched on. Check the connection cable and power supplies from the feed unit and hot stamping unit 1 to the SMI1-A.</value>
+  </data>
+  <data name="PreFeeder_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Power supply unit: Required electronics (bSMI) not powered. ► Make sure that the feeder is switched on. Check connection cable and power supply from feeder to SMI1-A.</value>
+  </data>
+  <data name="PreProcessing_PreFeederNotPresent" xml:space="preserve">
+    <value>No feeding device detected. ► Check connection to feeder or disable feeder.</value>
+  </data>
+  <data name="PreProcessing_PreFeederNotReady" xml:space="preserve">
+    <value>Feeding device reports error. ► Check the feed unit.</value>
+  </data>
+  <data name="PreProcessing_PreFeederPresentNotActivated" xml:space="preserve">
+    <value>Feeder detected although it is disabled in the Setup - Machine &amp; Line screen.</value>
+  </data>
+  <data name="WireEndMonitoring_NoWireDetected" xml:space="preserve">
+    <value>Wire end monitoring does not detect any raw material.</value>
+  </data>
+  <data name="WireStacker_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Cable stacker: Required interface (bSMI) not fed. ► Make sure that the wire stacker is switched on. Check connection cable and power supply from wire stacker to SMI1-B.</value>
+  </data>
+</root>

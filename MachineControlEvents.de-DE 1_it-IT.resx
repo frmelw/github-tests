@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+      Microsoft ResX Schema
+
+      Version 2.0
+
+      The primary goals of this format is to allow a simple XML format
+      that is mostly human readable. The generation and parsing of the
+      various data types are done through the TypeConverter classes
+      associated with the data types.
+
+      Example:
+
+      ... ado.net/XML headers & schema ...
+      <resheader name="resmimetype">text/microsoft-resx</resheader>
+      <resheader name="version">2.0</resheader>
+      <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+      <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+      <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+      <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+      <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+          <value>[base64 mime encoded serialized .NET Framework object]</value>
+      </data>
+      <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+          <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+          <comment>This is a comment</comment>
+      </data>
+
+      There are any number of "resheader" rows that contain simple
+      name/value pairs.
+
+      Each data row contains a name, and value. The row also contains a
+      type or mimetype. Type corresponds to a .NET class that support
+      text/value conversion through the TypeConverter architecture.
+      Classes that don't support this are serialized and stored with the
+      mimetype set.
+
+      The mimetype is used for serialized objects, and tells the
+      ResXResourceReader how to depersist the object. This is currently not
+      extensible. For a given mimetype the value must be set accordingly:
+
+      Note - application/x-microsoft.net.object.binary.base64 is the format
+      that the ResXResourceWriter will generate, however the reader can
+      read any of the formats listed below.
+
+      mimetype: application/x-microsoft.net.object.binary.base64
+      value   : The object must be serialized with
+              : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+              : and then encoded with base64 encoding.
+
+      mimetype: application/x-microsoft.net.object.soap.base64
+      value   : The object must be serialized with
+              : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+              : and then encoded with base64 encoding.
+
+      mimetype: application/x-microsoft.net.object.bytearray.base64
+      value   : The object must be serialized into a byte array
+              : using a System.ComponentModel.TypeConverter
+              : and then encoded with base64 encoding.
+      -->
+  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+  </resheader>
+  <data name="EventSystem_UnknownEvent" xml:space="preserve">
+        <value>Si è verificato un evento non noto. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="HardwareControlInterface_ConnectionLost" xml:space="preserve">
+        <value>La connessione all'azionamento hardware è stata chiusa inaspettatamente. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="HardwareControlInterface_ConnectingFailed" xml:space="preserve">
+        <value>Il collegamento all'attivazione hardware è interrotto. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="HardwareControlInterface_InitializingFailed" xml:space="preserve">
+        <value>Controllo macchina: Errore durante l'inizializzazione specifica della macchina. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MachineControl_GeneralSoftwareError" xml:space="preserve">
+        <value>Errore software generale. Impossibile eseguire l'operazione. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MachineState_InitializationFailed" xml:space="preserve">
+        <value>Errore durante l'avvio dell'inizializzazione della macchina. ► Osservare altri eventi attuali o riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="UserInterface_MachineClient_Initializing" xml:space="preserve">
+        <value>Inizializzazione interfaccia utente in corso...</value>
+    </data>
+  <data name="UserInterface_MachineClient_Disconnected" xml:space="preserve">
+        <value>Collegamento tra il comando macchina e l'interfaccia utente interrotto. ► Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="Update_Running" xml:space="preserve">
+        <value>Aggiornamento in corso. ► Non spegnere la macchina!</value>
+    </data>
+  <data name="RawMaterial_ImproperRawMaterialSize" xml:space="preserve">
+        <value>Il grezzo attualmente caricato nella macchina è diverso dal grezzo programmato. ► Confermare gli eventi per allentare il grezzo.</value>
+    </data>
+  <data name="Database_VerificationFailed" xml:space="preserve">
+        <value>Errore durante la lettura del database (dati incoerenti). Il database viene ripristinato con il backup più recente. Le immissioni effettuate dall'ultimo riavvio della macchina non sono incluse.</value>
+    </data>
+  <data name="MdcInstance1_Interface_ConnectionLost" xml:space="preserve">
+        <value>La connessione alla prima istanza MDC è stata chiusa inaspettatamente. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_Interface_ConnectionLost" xml:space="preserve">
+        <value>La connessione alla seconda istanza MDC è stata chiusa inaspettatamente. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_Interface_ConnectionLost" xml:space="preserve">
+        <value>La connessione alla terza istanza MDC è stata chiusa inaspettatamente. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance1_Interface_InitializingFailed" xml:space="preserve">
+        <value>Inizializzazione della prima istanza MDC non riuscita. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_Interface_InitializingFailed" xml:space="preserve">
+        <value>Inizializzazione della seconda istanza MDC non riuscita. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_Interface_InitializingFailed" xml:space="preserve">
+        <value>L'inizializzazione della terza istanza MDC è errata. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance1_Interface_Disconnected" xml:space="preserve">
+        <value>La connessione alla prima istanza MDC è stata interrotta. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_Interface_Disconnected" xml:space="preserve">
+        <value>Connessione alla seconda istanza MDC interrotta. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_Interface_Disconnected" xml:space="preserve">
+        <value>Connessione alla terza istanza MDC interrotta. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="InputAlarmConfiguration_PreFeederConfigurationFailed" xml:space="preserve">
+        <value>Alimentatore: Elettronica necessaria (bSMI) non trovata o difettosa.</value>
+    </data>
+  <data name="HardwareControlInterface_Initializing" xml:space="preserve">
+        <value>Inizializzazione macchina in corso... L'interfaccia utente è pronta per l'uso.</value>
+    </data>
+  <data name="PostProcessing_WireStackerEjectReadyTimeout" xml:space="preserve">
+        <value>L'impilatore cavi non ha fornito alcun feedback sul segnale di espulsione. ► Controllare se lo sportello di espulsione sull'impilatore cavi presenta problemi.</value>
+    </data>
+  <data name="InputAlarmConfiguration_WireStackerConfigurationFailed" xml:space="preserve">
+        <value>Impilatore cavi: Elettronica necessaria (bSMI) non trovata o difettosa.</value>
+    </data>
+  <data name="InputAlarmConfiguration_CableCoilerConfigurationFailed" xml:space="preserve">
+        <value>Avvolgi-cavo: Elettronica necessaria (bSMI) non trovata o difettosa.</value>
+    </data>
+  <data name="OperatingData_VerificationFailed" xml:space="preserve">
+        <value>Errore durante la lettura dei dati di esercizio. I dati sono stati resettati a 0. ► Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MachineControl_IncompatibleFile" xml:space="preserve">
+        <value>I dati incompatibili sono stati eliminati. L'incompatibilità è dovuta a una nuova versione del software installata. I dati sono stati archiviati prima della cancellazione.</value>
+    </data>
+  <data name="PreProcessing_PreFeederPowerNotGood" xml:space="preserve">
+        <value>Alimentatore: Interfaccia necessaria (bSMI) non alimentata. ► Assicurarsi che l'alimentatore sia acceso. Controllare il cavo di collegamento e l'alimentazione dal dispositivo di alimentazione al bSMI.</value>
+    </data>
+  <data name="PostProcessing_CableCoilerPowerNotGood" xml:space="preserve">
+        <value>Avvolgi-cavo: Interfaccia necessaria (bSMI) non alimentata. ► Assicurarsi che l'avvolgicavo sia acceso. Controllare il cavo di collegamento e l'alimentazione dall'avvolgicavo al bSMI.</value>
+    </data>
+  <data name="PostProcessing_WireStackerPowerNotGood" xml:space="preserve">
+        <value>Impilatore cavi: Interfaccia necessaria (bSMI) non alimentata. ► Assicurarsi che l'impilatore cavi sia acceso. Controllare il cavo di collegamento e l'alimentazione dall'impilatore cavi al bSMI.</value>
+    </data>
+  <data name="PieceCountData_VerificationFailed" xml:space="preserve">
+        <value>Errore durante la lettura dei dati del contatore pezzi. Impossibile ripristinare i dati. ► Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MachineControl_InvalidDateTime" xml:space="preserve">
+        <value>Data e ora non valide. ► Impostare la data e l'ora nella schermata "Impostazioni di base ➊ Messa in funzione ➊ Configurazione generale".</value>
+    </data>
+  <data name="MdcInstance1_ErrorUnexpected" xml:space="preserve">
+        <value>Si è verificato un errore imprevisto nel dispositivo di marcatura 1. ► Osservare le informazioni supplementari. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance1_ErrorCreatingDriver" xml:space="preserve">
+        <value>Impossibile creare il driver per il dispositivo di marcatura 1. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance1_ErrorUnknownDriver" xml:space="preserve">
+        <value>Driver sconosciuto selezionato per il traccialinee 1. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Impossibile caricare il driver per il dispositivo di marcatura 1. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Impossibile stabilire la connessione di rete con il marcatore 1 ► Assicurarsi che la connessione al marcatore sia corretta e accendere il dispositivo.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Impossibile stabilire una connessione di rete con il dispositivo di marcatura 1. ► Assicurarsi che il collegamento al traccialinee sia corretto.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Connessione incompatibile con il traccialinee 1. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Errore nel dispositivo di marcatura 1. ► Osservare le informazioni supplementari.</value>
+    </data>
+  <data name="MdcInstance1_WarnDeviceGeneric" xml:space="preserve">
+        <value>Avvertenza per il traccialinee 1. ► Osservare le informazioni supplementari.</value>
+    </data>
+  <data name="MdcInstance1_InfoDeviceGeneric" xml:space="preserve">
+        <value>Informazioni sul traccialinee 1. ► Osservare le informazioni supplementari.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Impossibile trovare il file del dispositivo per il dispositivo di marcatura 1. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_ErrorUnexpected" xml:space="preserve">
+        <value>Si è verificato un errore imprevisto nel dispositivo di marcatura 2. ► Osservare le informazioni supplementari. Se il problema si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_ErrorCreatingDriver" xml:space="preserve">
+        <value>Impossibile creare il driver per il dispositivo di marcatura 2. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_ErrorUnknownDriver" xml:space="preserve">
+        <value>Driver sconosciuto selezionato per il traccialinee 2. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Impossibile caricare il driver per il dispositivo di marcatura 2. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Impossibile stabilire la connessione di rete con il marcatore 2 ► Assicurarsi che la connessione al marcatore sia corretta e accendere il dispositivo.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Impossibile stabilire una connessione di rete con il dispositivo di marcatura 2. ► Assicurarsi che il collegamento al traccialinee sia corretto.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Connessione incompatibile con il traccialinee 2. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Errore nel dispositivo di marcatura 2. ► Osservare le informazioni supplementari.</value>
+    </data>
+  <data name="MdcInstance2_WarnDeviceGeneric" xml:space="preserve">
+        <value>Avvertenza per il traccialinee 2. ► Osservare le informazioni supplementari.</value>
+    </data>
+  <data name="MdcInstance2_InfoDeviceGeneric" xml:space="preserve">
+        <value>Informazioni sul traccialinee 2. ► Osservare le informazioni supplementari.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Impossibile trovare il file del dispositivo per il dispositivo di marcatura 2. ► Riavviare la macchina. Se il problema si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_ErrorUnexpected" xml:space="preserve">
+        <value>Si è verificato un errore imprevisto nel dispositivo di marcatura 3. ► Osservare le informazioni supplementari. Se il problema si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_ErrorCreatingDriver" xml:space="preserve">
+        <value>Impossibile creare il driver per il dispositivo di marcatura 3. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_ErrorUnknownDriver" xml:space="preserve">
+        <value>Driver sconosciuto selezionato per il traccialinee 3. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoDriverLoaded" xml:space="preserve">
+        <value>Impossibile caricare il driver per il dispositivo di marcatura 3. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoPhysicalConnection" xml:space="preserve">
+        <value>Impossibile stabilire la connessione di rete con il marcatore 3 ► Assicurarsi che la connessione al marcatore sia corretta e accendere il dispositivo.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoLogicalConnection" xml:space="preserve">
+        <value>Impossibile stabilire una connessione di rete con il marcatore 3. ► Assicurarsi che il collegamento al traccialinee sia corretto.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNoContentualConnection" xml:space="preserve">
+        <value>Connessione incompatibile con il traccialinee 3. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceGeneric" xml:space="preserve">
+        <value>Errore del traccialinee 3. ► Osservare le informazioni supplementari.</value>
+    </data>
+  <data name="MdcInstance3_WarnDeviceGeneric" xml:space="preserve">
+        <value>Avvertenza sul traccialinee 3.</value>
+    </data>
+  <data name="MdcInstance3_InfoDeviceGeneric" xml:space="preserve">
+        <value>Informazioni sul traccialinee 3. ► Osservare le informazioni supplementari.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceFileNotFound" xml:space="preserve">
+        <value>Impossibile trovare il file del dispositivo per il marcatore 3. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MarkingDevice1_SmiMissing" xml:space="preserve">
+        <value>Traccialinee 1: Elettronica necessaria (bSMI) non trovata o difettosa.</value>
+    </data>
+  <data name="MarkingDevice2_SmiMissing" xml:space="preserve">
+        <value>Traccialinee 2: Elettronica necessaria (bSMI) non trovata o difettosa.</value>
+    </data>
+  <data name="MarkingDevice3_SmiMissing" xml:space="preserve">
+        <value>Stampo a caldo: Elettronica necessaria (bSMI) non trovata o difettosa.</value>
+    </data>
+  <data name="MdcInstance1_Interface_Initializing" xml:space="preserve">
+        <value>Inizializzazione connessione alla prima istanza MDC in corso...</value>
+    </data>
+  <data name="MdcInstance2_Interface_Initializing" xml:space="preserve">
+        <value>Inizializzazione connessione alla seconda istanza MDC in corso...</value>
+    </data>
+  <data name="MdcInstance3_Interface_Initializing" xml:space="preserve">
+        <value>Inizializzazione connessione alla terza istanza MDC in corso...</value>
+    </data>
+  <data name="Marking_LimitedFeedingSpeed" xml:space="preserve">
+        <value>Velocità ridotta a causa dell'immagine di stampa impostata.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceLockUI" xml:space="preserve">
+        <value>Impossibile bloccare l'interfaccia utente del traccialinee 1. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance1_ErrorDeviceNotReady" xml:space="preserve">
+        <value>Il marcatore 1 non è pronto per la produzione. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceLockUI" xml:space="preserve">
+        <value>Impossibile bloccare l'interfaccia utente del traccialinee 2. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceLockUI" xml:space="preserve">
+        <value>Impossibile bloccare l'interfaccia utente del dispositivo di marcatura 3. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance2_ErrorDeviceNotReady" xml:space="preserve">
+        <value>Il marcatore 2 non è pronto per la produzione. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MdcInstance3_ErrorDeviceNotReady" xml:space="preserve">
+        <value>Il marcatore 3 non è pronto per la produzione. ► Riavviare la macchina. Se il guasto si ripresenta, contattare l'assistenza Schleuniger.</value>
+    </data>
+  <data name="MachineControl_FileConversionFailed" xml:space="preserve">
+        <value>Errore durante la conversione dei file nella versione dati corrente. I file interessati sono stati reinizializzati. ► I dati rimangono memorizzati nella vecchia versione sulla macchina e possono essere copiati dalla macchina con un backup.</value>
+    </data>
+  <data name="MachineControl_DatabaseConversionFailed" xml:space="preserve">
+        <value>Errore durante la conversione del database alla versione dati corrente. I file interessati sono stati reinizializzati. ► Il database rimane salvato nella vecchia versione sulla macchina e può essere copiato dalla macchina con un backup.</value>
+    </data>
+  <data name="Marking_OverlappingAreas" xml:space="preserve">
+        <value>Rilevate stampe sovrapposte. ► Ridurre la lunghezza delle stampe, ridurre il numero di stampe o aumentare la distanza tra le stampe.</value>
+    </data>
+  <data name="MdcInstance1_ErrorTooManyFormats" xml:space="preserve">
+        <value>Traccialinee 1: Impossibile produrre l'articolo. Problemi di stampa a getto d'inchiostro. Sono state selezionate troppe combinazioni di formattazione del testo, dimensioni dei caratteri e spaziatura tra le lettere sull'articolo.</value>
+    </data>
+  <data name="MdcInstance2_ErrorTooManyFormats" xml:space="preserve">
+        <value>Traccialinee 2: Impossibile produrre l'articolo. Problemi di stampa a getto d'inchiostro. Sono state selezionate troppe combinazioni di formattazione del testo, dimensioni dei caratteri e spaziatura tra le lettere sull'articolo.</value>
+    </data>
+  <data name="MdcInstance3_ErrorTooManyFormats" xml:space="preserve">
+        <value>Marcatore 3: Impossibile produrre l'articolo. Problemi di stampa a getto d'inchiostro. Sono state selezionate troppe combinazioni di formattazione del testo, dimensioni dei caratteri e spaziatura tra le lettere sull'articolo.</value>
+    </data>
+  <data name="MdcInstance1_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Traccialinee 1: Impossibile produrre l'articolo. Problemi di stampa a getto d'inchiostro. La stampante a getto d'inchiostro supporta la stampa di articoli con testo (semplice marcatura). La stampante a getto d'inchiostro attualmente non supporta la marcatura avanzata (loghi, codici a barre, distanziatori e simili).</value>
+    </data>
+  <data name="MdcInstance2_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Traccialinee 2: Impossibile produrre l'articolo. Problemi di stampa a getto d'inchiostro. La stampante a getto d'inchiostro supporta la stampa di articoli con testo (semplice marcatura). La stampante a getto d'inchiostro attualmente non supporta la marcatura avanzata (loghi, codici a barre, distanziatori e simili).</value>
+    </data>
+  <data name="MdcInstance3_ErrorComplexContentNotSupported" xml:space="preserve">
+        <value>Marcatore 3: Impossibile produrre l'articolo. Problemi di stampa a getto d'inchiostro. La stampante a getto d'inchiostro supporta la stampa di articoli con testo (semplice marcatura). La stampante a getto d'inchiostro attualmente non supporta la marcatura avanzata (loghi, codici a barre, distanziatori e simili).</value>
+    </data>
+  <data name="Marking_TooManyAreaElements" xml:space="preserve">
+        <value>Impossibile produrre l'articolo. L'articolo contiene più di 100.000 marcature. ► Ridurre il numero di marcature a meno di 100.000.</value>
+    </data>
+  <data name="MdcInstance1_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Marcatore 1 non riconosciuto. ► Controllare la connessione al traccialinee o disattivare il traccialinee.</value>
+    </data>
+  <data name="MdcInstance2_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Marcatore 2 non riconosciuto. ► Controllare la connessione al traccialinee o disattivare il traccialinee.</value>
+    </data>
+  <data name="MdcInstance3_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Dispositivo di marcatura 3 non riconosciuto. ► Controllare la connessione al traccialinee o disattivare il traccialinee.</value>
+    </data>
+  <data name="HotStamp1_MarkingDeviceNotPresent" xml:space="preserve">
+        <value>Dispositivo di stampaggio a caldo 1 non riconosciuto. ► Controllare il collegamento all'unità di stampaggio a caldo o disattivare l'unità di stampaggio a caldo.</value>
+    </data>
+  <data name="MdcInstance1_ErrorNotReady" xml:space="preserve">
+        <value>Il traccialinee 1 non è pronto per l'uso. ► Osservare altri eventi attuali o controllare il dispositivo di marcatura 1.</value>
+    </data>
+  <data name="MdcInstance2_ErrorNotReady" xml:space="preserve">
+        <value>Il traccialinee 2 non è pronto per l'uso. ► Osservare altri eventi attuali o controllare il traccialinee 2.</value>
+    </data>
+  <data name="MdcInstance3_ErrorNotReady" xml:space="preserve">
+        <value>Il traccialinee 3 non è pronto per l'uso. ► Osservare altri eventi attuali o controllare il traccialinee 3.</value>
+    </data>
+  <data name="MachineUpdater_Active" xml:space="preserve">
+        <value>Aggiornamento S.Drive in corso. Confermare il messaggio per inizializzare la macchina di taglio e spelatura. L'inizializzazione può causare un collegamento difettoso al controllo hardware.</value>
+    </data>
+  <data name="CableCoiler_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Avvolgi-cavo: Interfaccia necessaria (bSMI) non alimentata. ► Assicurarsi che l'avvolgicavo sia acceso. Controllare il cavo di collegamento e l'alimentazione dall'avvolgicavo all'SMI1-B.</value>
+  </data>
+  <data name="HotStamp1_AcknowledgeError" xml:space="preserve">
+      <value>Stampatrice a caldo 1: Il segnale di risposta è impostato prima del processo di stampaggio. ► Controllare il segnale di risposta dell'unità di stampaggio a caldo.</value>
+  </data>
+  <data name="HotStamp1_TimeoutError" xml:space="preserve">
+      <value>Stampatrice a caldo 1: Timeout durante la stampa. ► Controllare i valori di configurazione per il timeout nella schermata "Impostazioni di base ➊ Messa in funzione ➊ Dispositivi di marcatura". ► Controllare il segnale di risposta dell'unità di stampaggio a caldo.</value>
+  </data>
+  <data name="HotStamp1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Stampatrice a caldo 1: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che l'apparecchio per stampaggio a caldo 1 sia acceso. Controllare il cavo di collegamento e l'alimentazione dal dispositivo di stampaggio a caldo 1 a SMI1-A.</value>
+  </data>
+  <data name="MdcInstance1_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Traccialinee 1: Qualcosa non ha funzionato. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_ErrorInterruptFailed" xml:space="preserve">
+    <value>Traccialinee 1: Impossibile attivare la modalità "Pausa". ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Traccialinee 1: Il comando di stampa non è stato confermato dal dispositivo entro il tempo necessario. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_ErrorProductionState" xml:space="preserve">
+      <value>Traccialinee 1: Qualcosa non ha funzionato. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_ErrorRunFailed" xml:space="preserve">
+    <value>Traccialinee 1: Impossibile attivare la modalità di funzionamento. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStillPrinting" xml:space="preserve">
+    <value>Traccialinee 1: La stampa precedente era ancora in corso al momento dell'attivazione della nuova stampa.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStillReloading" xml:space="preserve">
+    <value>Traccialinee 1: Il comando di stampa è stato eseguito durante il ricaricamento delle stampe. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_ErrorStreamClosed" xml:space="preserve">
+      <value>Traccialinee 1: Connessione persa tra il traccialinee e il controller hardware. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_ErrorTerminateFailed" xml:space="preserve">
+    <value>Traccialinee 1: Impossibile attivare la modalità "fuori servizio". ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_ErrorUnableToReload" xml:space="preserve">
+    <value>Traccialinee 1: Impossibile ricaricare le stampe. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Traccialinee 1: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che il traccialinee 1 sia acceso. Controllare il cavo di collegamento e l'alimentazione dal traccialinee 1 all'SMI1-A.</value>
+  </data>
+  <data name="MdcInstance1_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Traccialinee 1: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che il traccialinee 1 sia acceso. Controllare il cavo di collegamento e l'alimentazione dal traccialinee 1 all'SMI1-B.</value>
+  </data>
+  <data name="MdcInstance1_SMI2_A_PowerGoodError" xml:space="preserve">
+      <value>Traccialinee 1: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che il traccialinee 1 sia acceso. Controllare il cavo di collegamento e l'alimentazione dal marcatore 1 all'SMI2-A.</value>
+  </data>
+  <data name="MdcInstance2_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Traccialinee 2: Qualcosa non ha funzionato. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_ErrorInterruptFailed" xml:space="preserve">
+    <value>Traccialinee 2: Impossibile attivare la modalità "Pausa". ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Traccialinee 2: Il comando di stampa non è stato confermato dal dispositivo entro il tempo necessario. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_ErrorProductionState" xml:space="preserve">
+      <value>Traccialinee 2: Qualcosa non ha funzionato. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_ErrorRunFailed" xml:space="preserve">
+    <value>Traccialinee 2: Impossibile attivare la modalità di funzionamento. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStillPrinting" xml:space="preserve">
+    <value>Traccialinee 2: La stampa precedente era ancora in corso al momento dell'attivazione della nuova stampa.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStillReloading" xml:space="preserve">
+    <value>Traccialinee 2: Il comando di stampa è stato eseguito durante il ricaricamento delle stampe. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_ErrorStreamClosed" xml:space="preserve">
+      <value>Traccialinee 2: Connessione persa tra il traccialinee e il controller hardware. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_ErrorTerminateFailed" xml:space="preserve">
+    <value>Traccialinee 2: Impossibile attivare la modalità "fuori servizio". ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_ErrorUnableToReload" xml:space="preserve">
+    <value>Traccialinee 2: Impossibile ricaricare le stampe. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance2_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Traccialinee 2: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che il traccialinee 2 sia acceso. Controllare il cavo di collegamento e l'alimentazione dal traccialinee 2 all'SMI1-A.</value>
+  </data>
+  <data name="MdcInstance2_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Traccialinee 2: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che il traccialinee 2 sia acceso. Controllare il cavo di collegamento e l'alimentazione dal traccialinee 2 all'SMI1-B.</value>
+  </data>
+  <data name="MdcInstance2_SMI2_A_PowerGoodError" xml:space="preserve">
+      <value>Traccialinee 2: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che il traccialinee 2 sia acceso. Controllare il cavo di collegamento e l'alimentazione dal traccialinee 2 all'SMI2-A.</value>
+  </data>
+  <data name="MdcInstance2_SMI2_B_PowerGoodError" xml:space="preserve">
+      <value>Traccialinee 2: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che il traccialinee 2 sia acceso. Controllare il cavo di collegamento e l'alimentazione dal traccialinee 2 all'SMI2-B.</value>
+  </data>
+  <data name="MdcInstance3_ErrorFeedingStopActionTimeout" xml:space="preserve">
+      <value>Marcatore 3: Qualcosa non ha funzionato. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance3_ErrorInterruptFailed" xml:space="preserve">
+    <value>Marcatore 3: Impossibile attivare la modalità "Pausa". ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance3_ErrorPrintTimeOut" xml:space="preserve">
+    <value>Marcatore 3: Il comando di stampa non è stato confermato dal dispositivo entro il tempo necessario. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance3_ErrorProductionState" xml:space="preserve">
+      <value>Marcatore 3: Qualcosa non ha funzionato. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance3_ErrorRunFailed" xml:space="preserve">
+    <value>Marcatore 3: Impossibile attivare la modalità di funzionamento. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStillPrinting" xml:space="preserve">
+    <value>Marcatore 3: La stampa precedente era ancora in corso al momento dell'attivazione della nuova stampa.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStillReloading" xml:space="preserve">
+    <value>Marcatore 3: Il comando di stampa è stato eseguito durante il ricaricamento delle stampe. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance3_ErrorStreamClosed" xml:space="preserve">
+      <value>Marcatore 3: Connessione persa tra il traccialinee e il controller hardware. ► Osservare altri eventi attuali o controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance3_ErrorTerminateFailed" xml:space="preserve">
+    <value>Marcatore 3: Impossibile attivare la modalità "fuori servizio". ► Controllare il traccialinee.</value>
+  </data>
+  <data name="MdcInstance3_ErrorUnableToReload" xml:space="preserve">
+    <value>Marcatore 3: Impossibile ricaricare le stampe. ► Controllare il traccialinee.</value>
+  </data>
+  <data name="PostProcessing_CableCoilerNotReady" xml:space="preserve">
+    <value>Avvolgi-cavo: L'avvolgicavo segnala un errore. ► Controllare il cavo di collegamento o eliminare l'errore sull'avvolgicavo.</value>
+  </data>
+  <data name="PostProcessing_WireStackerNotPresent" xml:space="preserve">
+    <value>Nessun impilatore cavi rilevato. ► Controllare il collegamento all'impilatore cavi.</value>
+  </data>
+  <data name="PreFeederAndHotStamp1_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Unità di alimentazione e unità di stampaggio a caldo 1: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che l'unità di alimentazione e l'unità di stampaggio a caldo 1 siano accese. Controllare il cavo di collegamento e le alimentazioni dall'unità di alimentazione e dall'unità di stampaggio a caldo 1 a SMI1-A.</value>
+  </data>
+  <data name="PreFeeder_SMI1_A_PowerGoodError" xml:space="preserve">
+      <value>Alimentatore: Elettronica necessaria (bSMI) non alimentata. ► Assicurarsi che l'alimentatore sia acceso. Controllare il cavo di collegamento e l'alimentazione dal dispositivo di alimentazione all'SMI1-A.</value>
+  </data>
+  <data name="PreProcessing_PreFeederNotPresent" xml:space="preserve">
+    <value>Nessun dispositivo di alimentazione rilevato. ► Controllare la connessione al dispositivo di alimentazione o disattivare il dispositivo di alimentazione.</value>
+  </data>
+  <data name="PreProcessing_PreFeederNotReady" xml:space="preserve">
+    <value>L'unità di alimentazione segnala un errore. ► Controllare l'alimentatore.</value>
+  </data>
+  <data name="PreProcessing_PreFeederPresentNotActivated" xml:space="preserve">
+    <value>Dispositivo di alimentazione rilevato anche se disattivato nella schermata "Configurazione - Macchina e linea".</value>
+  </data>
+  <data name="WireEndMonitoring_NoWireDetected" xml:space="preserve">
+    <value>Il monitoraggio dell'estremità del cavo non rileva il materiale grezzo.</value>
+  </data>
+  <data name="WireStacker_SMI1_B_PowerGoodError" xml:space="preserve">
+      <value>Impilatore cavi: Interfaccia necessaria (bSMI) non alimentata. ► Assicurarsi che l'impilatore cavi sia acceso. Controllare il cavo di collegamento e l'alimentazione dall'impilatore cavi all'SMI1-B.</value>
+  </data>
+</root>

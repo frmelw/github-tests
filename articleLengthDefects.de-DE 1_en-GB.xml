@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<articleLengthDefects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/articleLengthDefects.xsd">
+
+  <!-- ReSharper disable MarkupTextTypo -->
+
+  <defects>
+
+    <defect>
+      <text>Item length inaccurate</text>
+      <description><![CDATA[An accurate package length can be influenced by the following factors:
+- Raw material diameter, structure, surface condition
+- The temperature is
+- Process Parameters
+
+Ensure precise article length:
+- Teach in length accuracy.
+- Increase the compression force. This ensures that no slip occurs when feeding.
+- Reduce acceleration and speed. Too high values lead to slip.
+- Enter the measured package length as a correction value. The correction value is calculated during production.]]></description>
+      <items>
+        <defectResolutionHint id="LengthAccuracyLearning">
+          <hintDescription>
+            <description><![CDATA[Correctly taught length accuracy leads to precise article, stripping and stripping lengths.
+- “Teach Length” on the Setup - Load Raw Material screen.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+        <feedingProcessingLink id="Feeding.Pressure"/>
+        <feedingProcessingLink id="Feeding.Acceleration"/>
+        <feedingProcessingLink id="Feeding.Speed"/>
+        <articleCorrectionLink id="Length.CorrectedLength"/>
+      </items>
+    </defect>
+
+    <defect>
+      <text>Raw material not cut</text>
+      <description><![CDATA[Problems with cutting can be caused by the following factors:
+- Condition of the blades (wear)
+- Wrong cutting process parameters
+Ensure cutting:
+- Use flawless knives.
+- Adjust speed and acceleration.
+- Gradually increase the blade overlap.
+- Increase gripping opening on right; reduces the force on the blades.]]></description>
+      <items>
+        <defectResolutionHint id="BladesCheck">
+          <hintDescription>
+            <description><![CDATA[Check the blades:
+- Reliable cutting requires flawless blades.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+        <cuttingProcessingLink id="Cutting.Speed"/>
+        <cuttingProcessingLink id="Cutting.Acceleration"/>
+        <cuttingProcessingLink id="Cutting.BladeOverlapPosition"/>
+        <cuttingProcessingLink id="Cutting.GrippingRightGuiding"/>
+        <cuttingProcessingLink id="Cutting.GrippingRightPressure"/>
+      </items>
+    </defect>
+
+    <defect>
+      <text>Cutting surface not flat</text>
+      <description><![CDATA[Ensure a flat cutting surface:
+- Deactivate “Gripper opening right leading”.
+- Increase the compression force gradually.]]></description>
+      <items>
+        <cuttingProcessingLink id="Cutting.GrippingRightGuiding"/>
+        <cuttingProcessingLink id="Cutting.GrippingRightPressure"/>
+      </items>
+    </defect>
+
+    <defect>
+      <text>Jacket damaged</text>
+      <description><![CDATA[Injuries to the raw material jacket have the following causes:
+- Blade opening too small.
+- Guides do not match the raw material.]]></description>
+      <items>
+        <feedingProcessingLink id="Guiding.BladeOpening"/>
+        <defectResolutionHint id="GuidesDiameterCheck">
+          <hintDescription>
+            <description><![CDATA[Ensuring process-reliable processing of the raw material:
+- Mount guides that match the raw material.
+- Too small or too large guides can cause raw material jams and collisions with machine elements.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+      </items>
+    </defect>
+
+    <defect>
+      <text>Raw material jam in the machine</text>
+      <description><![CDATA[If there is a jam of raw material in the machine, check all conductive elements:
+- Mount guides that match the raw material.
+- Too small or too large guides can cause raw material jams and collisions with machine elements.
+- The blade opening must not be too small.]]></description>
+      <items>
+        <feedingProcessingLink id="Guiding.BladeOpening"/>
+        <defectResolutionHint id="GuidesDiameterCheck">
+          <hintDescription>
+            <description><![CDATA[Ensuring process-reliable processing of the raw material:
+- Mount guides that match the raw material.
+- Too small or too large guides can cause raw material jams and collisions with machine elements.]]></description>
+          </hintDescription>
+        </defectResolutionHint>
+      </items>
+    </defect>
+
+  </defects>
+</articleLengthDefects>
