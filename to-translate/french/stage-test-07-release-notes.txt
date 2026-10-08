@@ -1,0 +1,1 @@
+Version two introduces a faster search, a cleaner dashboard and several fixes for the notification settings. We recommend updating as soon as possible.
