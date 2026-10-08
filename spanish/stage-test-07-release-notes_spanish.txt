@@ -1,0 +1,1 @@
+La versión dos presenta una búsqueda más rápida, un panel de control más limpio y varias correcciones para la configuración de notificaciones. Le recomendamos que lo actualice lo antes posible.

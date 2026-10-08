@@ -1,0 +1,1 @@
+Bienvenido a nuestro entorno de prueba. Este texto corto comprueba que una nueva solicitud de traducción llegue a los traductores y vuelva como un único compromiso por idioma.
