@@ -1,0 +1,1 @@
+La deuxième version présente une recherche plus rapide, un tableau de bord plus propre et plusieurs correctifs pour les paramètres de notification. Nous vous recommandons de procéder à la mise à jour dès que possible.
