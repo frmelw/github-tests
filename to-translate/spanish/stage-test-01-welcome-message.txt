@@ -1,0 +1,1 @@
+Welcome to our test environment. This short text checks that a new translation request reaches the translators and comes back as a single commit per language.
