@@ -1,0 +1,1 @@
+Bienvenue dans notre environnement de test. Ce court texte vérifie qu’une nouvelle demande de traduction parvienne aux traducteurs et revienne sous forme d’un seul commit par langue.
