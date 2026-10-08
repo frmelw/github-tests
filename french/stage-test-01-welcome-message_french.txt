@@ -1,0 +1,1 @@
+Bienvenue dans notre environnement de test. Ce texte court vérifie qu’une nouvelle demande de traduction parvient aux traducteurs et qu’elle revient sous la forme d’un seul engagement par langue.
